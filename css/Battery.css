@@ -1,5 +1,8 @@
-.board {
+.conteiner {
     display: inline-block;
-    background-color: yellow;
-    color: red;
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    border: 10px solid brown;
+    color: white;
 }
