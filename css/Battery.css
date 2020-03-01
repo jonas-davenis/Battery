@@ -7,37 +7,50 @@ body {
 .phone{
     display: inline-block;
     width: 200px;
-    height: 340px;
+    height: 350px;
     background-color: blue;
     border: 10px solid black;
+    padding: 9x;
+    text-align: center;
+    font-weight: bold;
 }
 .cell-0 {
     display: block;
     width: 180x;
     height: 50x;
     background-color: white;
+    padding: 9px;
+    border: 1px solid black
 }
 .cell-25 {
     display: block;
     width: 180x;
     height: 50x;
     background-color: yellow;
+    padding: 9px;
+    border: 1px solid black
 }
 .cell-50 {
     display: block;
     width: 180x;
     height: 50x;
     background-color: green;
+    padding: 9px;
+    border: 1px solid black
 }
 .cell-75 {
     display: block;
     width: 180x;
     height: 50x;
     background-color: orange;
+    padding: 9px;
+    border: 1px solid black   
 }
 .cell-100 {
     display: block;
     width: 180x;
     height: 50x;
     background-color: red;
+    padding: 9px;
+    border: 1px solid black
 }
