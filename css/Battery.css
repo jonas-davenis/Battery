@@ -1,8 +1,43 @@
-.conteiner {
+body {
+    height: 97.5vh;
+    background-image: linear-gradient(to right top, #000000, #1f161b, #352533, #473650, #514b72, #4d4e81, #455291, #3356a1, #20469f, #0d359c, #042196, #0c008e);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.phone{
     display: inline-block;
     width: 200px;
-    height: 300px;
-    background-color: black;
-    border: 10px solid brown;
-    color: white;
+    height: 340px;
+    background-color: blue;
+    border: 10px solid black;
+}
+.cell-0 {
+    display: block;
+    width: 180x;
+    height: 50x;
+    background-color: white;
+}
+.cell-25 {
+    display: block;
+    width: 180x;
+    height: 50x;
+    background-color: yellow;
+}
+.cell-50 {
+    display: block;
+    width: 180x;
+    height: 50x;
+    background-color: green;
+}
+.cell-75 {
+    display: block;
+    width: 180x;
+    height: 50x;
+    background-color: orange;
+}
+.cell-100 {
+    display: block;
+    width: 180x;
+    height: 50x;
+    background-color: red;
 }
