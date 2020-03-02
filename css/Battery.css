@@ -1,23 +1,21 @@
 body {
-    height: 97.5vh;
+    height: 100vh;
     background-image: linear-gradient(to right top, #000000, #1f161b, #352533, #473650, #514b72, #4d4e81, #455291, #3356a1, #20469f, #0d359c, #042196, #0c008e);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.phone{
-    display: inline-block;
+.phone {
+    display: block;
     width: 200px;
     height: 350px;
     border: 3px solid black;
-    padding: 9x;
     text-align: center;
     font-weight: bolder;
 }
 .bar {
     display: block;
-    width: 194px;
-    height: 344px;
-    padding: 2px;
+    width: 200x;
+    height:350px;
     animation-name: phone;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -25,22 +23,43 @@ body {
 @keyframes phone {
     0% {
         background-color: white;
-        border: 1px solid black
     }
     25% {
         background-color: green;
-        border: 1px solid black
     }
     50% {
         background-color: yellow;
-        border: 1px solid black
     }
     75% {
         background-color: orange;
-        border: 1px solid black 
     }
     100% {
         background-color: red;
-        border: 1px solid black
     }
+}
+.cell-0 {
+    display: block;
+    width: 40px;
+    height: 70px;
+}
+.cell-25 {
+    display: block;
+    width: 40px;
+    height: 70px;
+}
+.cell-50 {
+    display: block;
+    widows: 40px;
+    height: 70px;
+}
+.cell-75 {
+    display: block;
+    width: 40px;
+    height: 70px;
+    
+}
+.cell-100 {
+    display: block;
+    width: 40px;
+    height: 70px;
 }
