@@ -17,44 +17,30 @@ body {
     display: block;
     width: 194px;
     height: 344px;
+    padding: 2px;
     animation-name: phone;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
-@keyframes .phone {
+@keyframes phone {
     0% {
-        width: 180x;
-        height: 50x;
         background-color: white;
-        padding: 9px;
         border: 1px solid black
     }
     25% {
-        width: 180x;
-        height: 50x;
         background-color: green;
-        padding: 9px;
         border: 1px solid black
     }
     50% {
-        width: 180x;
-        height: 50x;
         background-color: yellow;
-        padding: 9px;
         border: 1px solid black
     }
     75% {
-        width: 180x;
-        height: 50x;
         background-color: orange;
-        padding: 9px;
         border: 1px solid black 
     }
     100% {
-        width: 180x;
-        height: 50x;
         background-color: red;
-        padding: 9px;
         border: 1px solid black
     }
 }
