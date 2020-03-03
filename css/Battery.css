@@ -4,18 +4,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.conteiner{
+    width: 200x;
+    height: 350px;
+}
 .phone {
     display: block;
     width: 200px;
     height: 350px;
     border: 3px solid black;
-    text-align: center;
     font-weight: bolder;
 }
 .bar {
     display: block;
-    width: 200x;
-    height:350px;
+    width: 100x;
+    height:340px;
     animation-name: phone;
     animation-duration: 15s;
     animation-iteration-count: infinite;
@@ -39,27 +42,35 @@ body {
 }
 .cell-0 {
     display: block;
-    width: 40px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 .cell-25 {
     display: block;
-    width: 40px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
 }
 .cell-50 {
     display: block;
-    widows: 40px;
-    height: 70px;
+    widows: 30px;
+    height: 30px;
 }
 .cell-75 {
     display: block;
-    width: 40px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     
 }
 .cell-100 {
     display: block;
-    width: 40px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
+}
+.conteiner {
+    width: 400px;
+    height: 400px;
+}
+.bar > p {
+    line-height: 3px;
+    font-size: 2px;
 }
